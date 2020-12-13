@@ -1,0 +1,21 @@
+{
+    "name": "booggmz/yii2-immo",
+    "description": "some test extension",
+    "type": "yii2-extension",
+    "keywords": ["immo","extension"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "EOsipov",
+            "email": "i@booggmz.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "booggmz\\immo\\": ""
+        }
+    }
+}
