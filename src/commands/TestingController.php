@@ -1,13 +1,13 @@
 <?php
 
-namespace booggmz\immo\commands;
+namespace Booggmz\Immo\commands;
 
-use booggmz\immo\components\QueueProcessor;
-use booggmz\immo\exceptions\NoAvailableOperatorsException;
-use booggmz\immo\exceptions\NotFoundException;
-use booggmz\immo\models\Operator;
-use booggmz\immo\models\Queue;
-use booggmz\immo\models\Service;
+use Booggmz\Immo\components\QueueProcessor;
+use Booggmz\Immo\exceptions\NoAvailableOperatorsException;
+use Booggmz\Immo\exceptions\NotFoundException;
+use Booggmz\Immo\models\Operator;
+use Booggmz\Immo\models\Queue;
+use Booggmz\Immo\models\Service;
 use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Output\ConsoleOutput;
 use Yii;
@@ -16,7 +16,7 @@ use yii\console\Controller;
 /**
  * Immo test task testing controller
  *
- * @package booggmz\immo\commands
+ * @package Booggmz\Immo\commands
  */
 class TestingController extends Controller
 {

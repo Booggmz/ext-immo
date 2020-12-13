@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "booggmz\\immo\\": ""
+            "Booggmz\\Immo\\": "src"
         }
     }
 }

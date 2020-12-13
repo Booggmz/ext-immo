@@ -1,10 +1,10 @@
 <?php
 
-namespace booggmz\immo\models;
+namespace Booggmz\Immo\models;
 
-use booggmz\immo\models\query\OperatorQuery;
-use booggmz\immo\models\query\QueueQuery;
-use booggmz\immo\models\query\ServiceQuery;
+use Booggmz\Immo\models\query\OperatorQuery;
+use Booggmz\Immo\models\query\QueueQuery;
+use Booggmz\Immo\models\query\ServiceQuery;
 use yii\db\ActiveRecord;
 use yii\db\Expression;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace booggmz\immo\events;
+namespace Booggmz\Immo\events;
 
-use booggmz\immo\models\Queue;
+use Booggmz\Immo\models\Queue;
 use yii\base\Event;
 
 class ServiceQueued extends Event

@@ -1,6 +1,6 @@
 <?php
 
-namespace booggmz\immo\exceptions;
+namespace Booggmz\Immo\exceptions;
 
 use yii\db\Exception;
 

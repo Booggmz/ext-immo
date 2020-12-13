@@ -1,8 +1,8 @@
 <?php
 
-namespace booggmz\immo\models\query;
+namespace Booggmz\Immo\models\query;
 
-use booggmz\immo\models\Service;
+use Booggmz\Immo\models\Service;
 
 /**
  * This is the ActiveQuery class for [[Service]].

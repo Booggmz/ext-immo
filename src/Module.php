@@ -1,19 +1,13 @@
 <?php
 
-namespace booggmz\immo;
+namespace Booggmz\Immo;
 
 /**
  * Class Module
  *
- * @package booggmz\immo
+ * @package Booggmz\Immo
  */
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'booggmz\immo\commands';
-
-    public function init()
-    {
-        $this->controllerNamespace = 'booggmz\immo\commands';
-        parent::init();
-    }
+    public $controllerNamespace = 'Booggmz\Immo\commands';
 }

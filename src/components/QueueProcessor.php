@@ -1,14 +1,14 @@
 <?php
 
-namespace booggmz\immo\components;
+namespace Booggmz\Immo\components;
 
-use booggmz\immo\events\ServiceDone;
-use booggmz\immo\events\ServiceQueued;
-use booggmz\immo\exceptions\NoAvailableOperatorsException;
-use booggmz\immo\exceptions\NotFoundException;
-use booggmz\immo\models\Operator;
-use booggmz\immo\models\Queue;
-use booggmz\immo\models\Service;
+use Booggmz\Immo\events\ServiceDone;
+use Booggmz\Immo\events\ServiceQueued;
+use Booggmz\Immo\exceptions\NoAvailableOperatorsException;
+use Booggmz\Immo\exceptions\NotFoundException;
+use Booggmz\Immo\models\Operator;
+use Booggmz\Immo\models\Queue;
+use Booggmz\Immo\models\Service;
 use yii\base\Component;
 use yii\db\Expression;
 

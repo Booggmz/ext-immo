@@ -31,13 +31,13 @@ console.php
     'bootstrap'           => ['log', 'immo'],
     ...
     'components' => [
-        'queueProcessor'    => ['class' => \booggmz\immo\components\QueueProcessor::class],
-        'operatorProcessor' => ['class' => \booggmz\immo\components\OperatorProcessor::class],
+        'queueProcessor'    => ['class' => \Booggmz\Immo\components\QueueProcessor::class],
+        'operatorProcessor' => ['class' => \Booggmz\Immo\components\OperatorProcessor::class],
     ],
     ...
     'modules' => [
         'immo' => [
-            'class' => booggmz\immo\Module::class
+            'class' => Booggmz\Immo\Module::class
         ],
     ],
 ```

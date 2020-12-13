@@ -1,8 +1,8 @@
 <?php
 
-namespace booggmz\immo\models\query;
+namespace Booggmz\Immo\models\query;
 
-use booggmz\immo\exceptions\NotFoundException;
+use Booggmz\Immo\exceptions\NotFoundException;
 use yii\db\ActiveQuery;
 use yii\db\Connection;
 

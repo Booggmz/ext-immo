@@ -1,11 +1,11 @@
 <?php
 
-namespace booggmz\immo\components;
+namespace Booggmz\Immo\components;
 
-use booggmz\immo\events\ServiceDone;
-use booggmz\immo\events\ServiceQueued;
-use booggmz\immo\exceptions\UnavailableOperatorException;
-use booggmz\immo\models\Operator;
+use Booggmz\Immo\events\ServiceDone;
+use Booggmz\Immo\events\ServiceQueued;
+use Booggmz\Immo\exceptions\UnavailableOperatorException;
+use Booggmz\Immo\models\Operator;
 use yii\base\Component;
 
 class OperatorProcessor extends Component

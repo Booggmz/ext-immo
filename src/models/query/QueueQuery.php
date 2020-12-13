@@ -1,8 +1,8 @@
 <?php
 
-namespace booggmz\immo\models\query;
+namespace Booggmz\Immo\models\query;
 
-use booggmz\immo\models\Queue;
+use Booggmz\Immo\models\Queue;
 
 /**
  * This is the ActiveQuery class for [[SurveyQueue]].

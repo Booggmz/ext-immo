@@ -3,9 +3,9 @@
 use yii\db\Migration;
 
 /**
- * Class m201213_180638_immo
+ * Class m201213_140638_immo
  */
-class m201213_180638_immo extends Migration
+class m201213_140638_immo extends Migration
 {
     private const SERVICE_TABLE = 'service',
         OPERATOR_TABLE = 'operator',
